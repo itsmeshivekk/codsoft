@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Face']
+
+roboflow:
+  workspace: hunau-csecl
+  project: face-detection-5w6i9
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hunau-csecl/face-detection-5w6i9/dataset/1
